@@ -25,7 +25,7 @@ function lessContent(){
 /*Create a function named `zoom` that will increase the font size of the paragraph with the id of `biggie` after hovering your mouse over it. Increae the font size to 150%*/
 
 function zoom(){
-  var getSwole = document.getElementById("biggie")
+  var getSwole = document.getElementById("biggie").style.fontSize="150%";
 }
 
 //4. McDonalds
